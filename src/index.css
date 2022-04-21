@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e8c2ca;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* App.js style */
+
+.mainDiv{
+  display: flex;
+  align-items: center;
+}
+
+.todoMainCard{
+  width: 45vw;
+  height: 60vh;
+  background-color: white;
+  position: relative;
+}
+.deleteButtonDiv{
+  width: 80%;
+  height: 12%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin: auto;
+}

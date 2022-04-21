@@ -1,0 +1,68 @@
+.listOutDiv{
+    width: 76%;
+    position: relative;
+    margin: auto;
+    overflow-y: scroll;
+    height: 37vh;
+}
+
+.todoCard{
+    width: 100%;
+    cursor: pointer;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    padding: .2%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin-bottom: 2%;
+}
+.todoCheck{
+    width: 5%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+input[type='checkbox'] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+    outline: none;
+    font-size: inherit;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 0.25em;
+    border: 0.125em solid #b392ac;
+    position: relative;
+  }
+  
+  input[type='checkbox']:checked {
+    background: #b392ac;
+  }
+  
+  input[type='checkbox']:checked:after {
+    content: "✔";
+    color: white;
+    position: absolute;
+    font-size: large;
+  
+  }
+  
+
+  .todoText{
+      width: 95%;
+      height: 100%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+  }
+
+ 

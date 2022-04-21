@@ -1,0 +1,16 @@
+.outDiv{
+    width:10vw ;
+    height: 43vh;
+    background-color:#b392ac ;
+    position:absolute;
+    right: 18vw;
+    text-align: center;
+    color: white;
+    padding: .5%;
+}
+.imageDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+}
